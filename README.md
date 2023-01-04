@@ -15,6 +15,11 @@ python waifu1-4.py
 
 ![hoge](000.png)
 
-## 推論時のメモリ節約方法.
+## 参考ページ
+
+### 推論時のメモリ節約方法.
 https://huggingface.co/docs/diffusers/optimization/fp16
 https://baskmedia.jp/novelai-code-of-the-elements1/
+
+### diffuserの解説
+https://huggingface.co/blog/stable_diffusion
