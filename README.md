@@ -12,6 +12,11 @@ pip install accelerate
 ```
 python waifu1-4.py
 ```
+※ GTX 3070 (VRAM 8GB)でも、２つのオプションをいれることで、768×1024の推論が可能. (5〜6GB程度の使用率.)
+```
+pipe.enable_attention_slicing() 
+pipe.enable_sequential_cpu_offload() 
+```
 
 ![hoge](000.png)
 
